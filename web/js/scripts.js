@@ -6,7 +6,7 @@ $("#send_btn").click(function(){
         data: data,
         success: function(data, dataType)
         {
-            
+            alert(data);
         },
     });
 });
